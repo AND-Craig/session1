@@ -1,0 +1,13 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Craig White",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf index.js && tsc && node index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.1.2"
+  }
+}
